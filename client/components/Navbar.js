@@ -1,4 +1,4 @@
-import styled from "styled-components";
+import styled from 'styled-components'
 import Link from 'next/link'
 
 const Container = styled.div`
@@ -11,7 +11,7 @@ const Wrapper = styled.nav`
 display: flex;
 justify-content: space-between;
 `
- const BrandName = styled.h1`
+const BrandName = styled.h1`
  `
 const NavElements = styled.ul`
 display: flex;
@@ -30,23 +30,23 @@ const Navbar = () => {
                 <BrandName>Recommend Me a Blog</BrandName>
                 <NavElements>
                     <Link href="/">
-                    <li>Home</li>
+                        <li>Home</li>
                     </Link>
                     <Link href='/blogs/home'>
-                    <li>Read</li>
+                        <li>Read</li>
                     </Link>
                     {/* <Link></Link> */}
                     {/* <Link></Link> */}
                     {/* <Link></Link> */}
-                    
-                    
+
+
                     <li>Brad</li>
                     <li>Sign Up</li>
                     <li>Login</li>
                 </NavElements>
             </Wrapper>
         </Container>
-    );
+    )
 }
 
-export default Navbar;   
+export default Navbar
